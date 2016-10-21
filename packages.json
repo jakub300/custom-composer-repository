@@ -22,5 +22,17 @@
         "reference": "e6741d2048295d6780a8cc81696a36973db65096"
       }
     }
+  },
+  "demo/formidable": {
+    "dev-master": {
+      "name": "demo/formidable",
+      "version": "dev-master",
+      "type": "wordpress-plugin",
+      "source": {
+        "url": "https://github.com/wp-premium/formidable",
+        "type": "git",
+        "reference": "f223d2711d8cb0652c73f1f6b78a3f2c39b72f70"
+      }
+    }
   }
 }
