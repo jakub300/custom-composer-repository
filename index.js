@@ -59,7 +59,6 @@ function writeNewPackagesIfNecessary(path, oldPackages, newPackages, cb) {
     console.log('No changes detected');
     process.exit(0);
   }
-  console.log(oldPackages, newPackages, typeof oldPackages, typeof newPackages);
   gh.getRepo(path[0], path[1]).writeFile(path[2], path[3], newPackages,
     commitMessage, cb);
 }
