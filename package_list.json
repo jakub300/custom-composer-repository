@@ -1,4 +1,5 @@
 {
   "demo/gravityforms": "https://github.com/wp-premium/gravityforms",
-  "demo/advanced-custom-fields-pro": "https://github.com/wp-premium/advanced-custom-fields-pro"
+  "demo/advanced-custom-fields-pro": "https://github.com/wp-premium/advanced-custom-fields-pro",
+  "demo/formidable": "https://github.com/wp-premium/formidable" 
 }
