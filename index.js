@@ -45,6 +45,7 @@ function generatePackages(packageList, commits, cb) {
       }
     }
   });
+  packages = {packages: packages};
   var str = JSON.stringify(packages, null, 2);
   cb(null, str);
 }
